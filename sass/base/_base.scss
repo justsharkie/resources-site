@@ -10,8 +10,10 @@
 html {
     // defines what 1rem is
     font-size: 62.5%; /* set to % rather than 10 pixels for accessibility */
+    scroll-behavior: smooth;
 }
 
 body {
     box-sizing: border-box; /*getting rid of border behavior*/
+    background-color: $color-grey-light;
 }

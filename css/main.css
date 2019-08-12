@@ -8,16 +8,72 @@
 /* resetting font properties */
 html {
   font-size: 62.5%;
-  /* set to % rather than 10 pixels for accessibility */ }
+  /* set to % rather than 10 pixels for accessibility */
+  scroll-behavior: smooth; }
 
 body {
   box-sizing: border-box;
-  /*getting rid of border behavior*/ }
+  /*getting rid of border behavior*/
+  background-color: #f2f2f2; }
+
+.section__main {
+  padding: 10rem; }
+  .section__main--title {
+    font-size: 3.5rem;
+    font-family: 'ABeeZee', cursive;
+    color: #9C4FC9; }
+  .section__main--subtitle {
+    font-size: 2.5rem;
+    font-family: 'ABeeZee', cursive;
+    margin: 3rem;
+    margin-bottom: 0;
+    display: inline-block; }
+.section__dev-hubs {
+  margin-top: 118rem; }
+.section__design-imgs {
+  padding-top: 40rem; }
+.section__design-fonts {
+  margin-top: 60rem; }
+.section__design-colour {
+  margin-top: 60rem; }
+.section__design-misc {
+  margin-top: 60rem; }
+
+.card {
+  width: 30rem;
+  height: 48rem;
+  background-color: #fff;
+  margin: 5rem;
+  box-shadow: 0 3px 1.2rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 5rem;
+  border-radius: 2rem;
+  display: inline-block;
+  float: left;
+  transition: all .2s; }
+  .card__link {
+    text-decoration: none;
+    color: none; }
+  .card__logo {
+    width: 50%;
+    height: auto; }
+  .card__title {
+    font-size: 3rem;
+    font-family: 'Abel', cursive;
+    padding: 2rem;
+    color: #9C4FC9; }
+  .card__details {
+    font-size: 1.7rem;
+    font-family: 'ABeeZee', cursive;
+    color: #000; }
+  .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 1.3rem rgba(0, 0, 0, 0.4); }
 
 .header {
   background-color: #E85B30;
   width: 100vw;
-  height: 75vh;
+  height: 70vh;
   text-align: center;
   padding: 15rem;
   position: relative; }
