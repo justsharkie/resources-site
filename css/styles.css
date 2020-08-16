@@ -1,0 +1,195 @@
+/* 3a184e   572475 */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: .2rem;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+main {
+    display: block;
+}
+
+/*** Mobile Navigation ***/
+.nav-check {
+    display: none;
+}
+
+.nav-btn {
+    background-color: #FFF;
+    height: 5rem;
+    width: 5rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    border-radius: 50%;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba(#000, .1);
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-bg {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background-color: #E85B30;
+    z-index: 1000;
+    transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    opacity: 0;
+    width: 0;
+    transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.nav-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    font-family: 'ABeeZee', cursive;
+}
+
+.nav-text {
+    font-family: 'ABeeZee', cursive;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: #E85B30;
+}
+
+.nav-item {
+    margin: 1rem;
+}
+
+.nav-link:link, .nav-link:visited {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    background-size: 220%;
+    transition: all .4s;
+}
+
+.nav-check:checked ~ .nav-bg {
+    transform: scale(80);
+}
+
+.nav-check:checked ~ .nav {
+    opacity: 1;
+    width: 100%;
+}
+
+.page-head {
+    text-align: center;
+    background-color: #E85B30;
+    padding: 3rem;
+    color: #e6e6e6;
+}
+
+.page-head h1 {
+    font-family: 'Abel', cursive;
+    font-size: 2.7em;
+}
+
+.page-head h2 {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 300;
+}
+
+section {
+    color: white;
+    font-family: 'ABeeZee', cursive;
+    padding: 2rem;
+}
+
+section h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.item {
+    margin-top: 2rem;
+}
+
+.item p {
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/*** Web Dev Section ***/
+.webdev-docs,
+.webdev-misc,
+#webdev {
+    background-color: #572475;
+}
+
+.webdev-hubs {
+    background-color: #3a184e;
+}
+
+/*** Design Section ***/
+.design-images,
+.design-colours {
+    background-color: #800033;
+}
+
+.design-fonts,
+.design-misc,
+#design {
+    background-color: #99003d;
+}
+
+/*** Online Learning Section ***/
+.learning-courses {
+    background-color: #141452;
+}
+
+.learning-media,
+#learning {
+    background-color: #1e1e7b;
+}
+
+/*** Inspiration ***/
+.inspiration,
+#inspo {
+    background-color: #003300;
+}
+
+/***** MEDIA QUERIES *****/
+@media only screen and (min-width: 1200px) {
+    main {
+        display: flex;
+    }
+}

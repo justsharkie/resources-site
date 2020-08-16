@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sharkie's Resources</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--- MOBILE NAVIGATION --->
+    <nav class="mobileNav">
+        <input type="checkbox" class="nav-check uncheck" id="nav-toggle">
+        <label for="nav-toggle" class="nav-btn">
+            <span class="nav-text">Menu</span>
+        </label>
+        <div class="nav-bg">&nbsp;</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#webdev" class="nav-link" onclick="unCheck()">Webdev</a></li>
+                <li class="nav-item"><a href="#design" class="nav-link" onclick="unCheck()">Design</a></li>
+                <li class="nav-item"><a href="#learning" class="nav-link" onclick="unCheck()">Learning</a></li>
+                <li class="nav-item"><a href="#inspo" class="nav-link" onclick="unCheck()">Inspiration</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-head">
+        <h1>Sharkie's Resources</h1>
+        <h2>A creative alternative to a Bookmarks Bar</h2>
+    </header>
+    <main>
+        <div id="webdev">
+            <section class="webdev-docs">
+                <h1>Web Development - Documentation</h1>
+                <div class="emmet item">
+                    <a href="https://docs.emmet.io/cheat-sheet/" target="_blank">Emmet Cheat Sheet</a>
+                    <p>One of the best code tools ever created, Emmet's shortcuts mean you can code at double speed! And here's a cheat sheet to help you remember how to use it!</p>
+                </div>
+                <div class="sass item">
+                    <a href="https://sass-lang.com/" target="_blank">SASS/SCSS</a>
+                    <p>My favourite CSS preprocessor so far (also the only one I've tried), here is the documentation for when you forget (like I always do).</p>
+                </div>
+                <div class="mdn item">
+                    <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
+                    <p>Need a good resource for multi-code documentation? MDN has you covered!</p>
+                </div>
+                <div class="javascript item">
+                    <a href="https://devdocs.io/javascript/" target="_blank">Javascript Docs</a>
+                    <p>If you're like me, you always have to look something up about JavaScript. DevDocs makes that SO MUCH EASIER.</p>
+                </div>
+            </section>
+            <section class="webdev-hubs">
+                <h1>Web Development - Code Hubs</h1>
+                <div class="github item">
+                    <a href="https://github.com/" target="_blank">Github</a>
+                    <p>What developer hasn't heard of Github? This is the main code repo of choice, or so it seems.</p>
+                </div>
+                <div class="bitbucket item">
+                    <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>
+                    <p>A Github alternative, I would like to try using this repo more. Could always use a new program to replace the popular ones.</p>
+                </div>
+                <div class="copepen item">
+                    <a href="https://codepen.io/" target="_blank">Codepen</a>
+                    <p>Want to code something up quick and dirty? Maybe make some cute pixel art like me? Codepen is great, and all online!</p>
+                </div>
+                <div class="sandbox item">
+                    <a href="https://codesandbox.io/" target="_blank">Code Sandbox</a>
+                    <p>A More sophisticated Codepen, Code Sandbax is basically an entire code editor in the browser. </p>
+                </div>
+            </section>
+            <section class="webdev-misc">
+                <h1>Web Development - Misc</h1>
+                <div class="caniuse item">
+                    <a href="https://caniuse.com/#" target="_blank">CanIUse...</a>
+                    <p>Ever wondered what kind of support a CSS/JS property has? Figure it out here!</p>
+                </div>
+                <div class="handbook item">
+                    <a href="https://frontendmasters.com/books/front-end-handbook/2019/" target="_blank">Front End Handbook</a>
+                    <p>Every good field should have a handbook, and front end is no exception! This is such an essential piece for front end developers, and every year a new one comes out with all the most recent trends.</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="design">
+            <section class="design-images">
+                <h1>Design - Stock Images</h1>
+                <div class="pexels item">
+                    <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+                    <p>My current favourite, this is my go-to for stock images. I can always find something amazing for my current projects!</p>
+                </div>
+                <div class="unsplash item">
+                    <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+                    <p>A newbie to my image resources, there are just so many unique and lovely images to discover.</p>
+                </div>
+                <div class="pixabay item">
+                    <a href="https://pixabay.com/" target="_blank">Pixabay</a>
+                    <p>This is pure nostalgia, being my first image resource. Always a good fallback!</p>
+                </div>
+            </section>
+            <section class="design-fonts">
+                <h1>Design - Fonts</h1>
+                <div class="google item">
+                    <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+                    <p>Online fonts can be used on pretty much any site, and Google has an amazing collection of them! </p>
+                </div>
+                <div class="squirrel item">
+                    <a href="https://www.fontsquirrel.com/" target="_blank">Font Squirrel</a>
+                    <p>Want to download a free font? Have no fear, Font Squirrel is here! With a massive collection of unique fonts, you can always find something that looks great.</p>
+                </div>
+                <div class="awesome item">
+                    <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+                    <p>Want a font that is icons? Yup, Font Awesome is here for you.</p>
+                </div>
+            </section>
+            <section class="design-colours">
+                <h1>Design - Colours</h1>
+                <div class="w3 item">
+                    <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">W3 Schools Colour Picker</a>
+                    <p>Have a colour in mind but need a different shade? Want to play with colours? This is my absolute favourite resource to choose the perfect colour.</p>
+                </div>
+                <div class="coolors item">
+                    <a href="https://coolors.co/" target="_blank">Coolors</a>
+                    <p>Colour palettes are HARD. Coolors makes it easy.</p>
+                </div>
+                <div class="brands item">
+                    <a href="http://loriskumo.github.io/Brands-In-Colours/" target="_blank">Brands In Colour</a>
+                    <p>Need to find the perfect colour for a brand? Here you go! This has all the biggest social media/tech brands in usable colours!</p>
+                </div>
+            </section>
+            <section class="design-misc">
+                <h1>Design - Misc</h1>
+                <div class="boxy item">
+                    <a href="https://boxy-svg.com/" target="_blank">Boxy SVG</a>
+                    <p>SVG's are all the rage on the web nowadays, and Boxy SVG makes it super easy to edit and make them your own!</p>
+                </div>
+                <div class="resizer item">
+                    <a href="https://material.io/resources/resizer/#" target="_blank">Resizer</a>
+                    <p>An interactive viewer so you can easily see what your site looks like at different viewports. And all in the browser!</p>
+                </div>
+                <div class="figma item">
+                    <a href="https://www.figma.com/files/recent" target="_blank">Figma</a>
+                    <p>A brilliant browser prototyping tool, you can basically prototype anything while also sharing it with teammates!</p>
+                </div>
+                <div class="invision item">
+                    <a href="https://www.invisionapp.com/" target="_blank">Invision</a>
+                    <p>Another browser prototyping alternative, with interactive elements and a ton of other great features.</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="learning">
+            <section class="learning-courses">
+                <h1>Online Learning - Courses</h1>
+                <div class="udemy item">
+                    <a href="https://www.udemy.com/" target="_blank">Udemy</a>
+                    <p>My favourite online course resource, there is just so much amazing content. Though without the sales, I would never be able to afford them.</p>
+                </div>
+                <div class="codecademy item">
+                    <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+                    <p>Mostly free (unless you want to go more advanced) and focused on learning by doing, Codecademy is an amazing resource for beginners.</p>
+                </div>
+                <div class="pluralsight item">
+                    <a href="https://www.pluralsight.com/" target="_blank">Pluralsight</a>
+                    <p>Not free (except for a trial), Pluralsight is focused on lectures and videos. Feels more high class than the other options.</p>
+                </div>
+                <div class="lynda item">
+                    <a href="https://www.lynda.com/" target="_blank">Lynda/Linkedin Learning</a>
+                    <p>Honestly, haven't used this much. But from what I hear, it's a great learning platform. Also not free.</p>
+                </div>
+            </section>
+            <section class="learning-media">
+                <h1>Online Learning - Media</h1>
+                <div class="ala item">
+                    <a href="https://alistapart.com/" target="_blank">A List Apart</a>
+                    <p>For people who make websites! There are SO MANY amazing articles on this site, I could (and have) spent hours reading their content.</p>
+                </div>
+                <div class="smashing item">
+                    <a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a>
+                    <p>A magazine for web folks! Again, so much great content. And the place I get all my desktop backgrounds.</p>
+                </div>
+                <div class="hackernews item">
+                    <a href="https://news.ycombinator.com/" target="_blank">Hacker News</a>
+                    <p>Reddit, but tech. A message forum for tech folks!</p>
+                </div>
+                <div class="devto item">
+                    <a href="https://dev.to/" target="_blank">Dev Community</a>
+                    <p>My favourite blogging community. There are so many posts from people at all stages of their development career, it's such a valuable places to connect and post your own thoughts!</p>
+                </div>
+                <div class="mozilla item">
+                    <a href="https://blog.mozilla.org/" target="_blank">Mozilla Blogs</a>
+                    <p>Mozilla is great at putting out interesting content. And new content.</p>
+                </div>
+                <div class="stack item">
+                    <a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>
+                    <p>Our lord and saviour. You must know Stack Overflow to be a developer.</p>
+                </div>
+                <div class="wdd item">
+                    <a href="https://www.webdesignerdepot.com/" target="_blank">Web Designer Depot</a>
+                    <p>Article for Web Designers! How can you hate that?</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="inspo">
+            <section class="inspiration">
+                <h1>Inspiration</h1>
+                <div class="dribbble item">
+                    <a href="https://dribbble.com/" target="_blank">Dribbble</a>
+                    <p>So. Much. Pretty. The illustrations and designs on this website can give anyone inspiration, I swear.</p>
+                </div>
+                <div class="flickr item">
+                    <a href="https://www.flickr.com/" target="_blank">Flickr</a>
+                    <p>Want to just stare at some pretty pictures? Well, there are SO MANY of them on Flickr for you to stare at. </p>
+                </div>
+                <div class="landbook item">
+                    <a href="https://land-book.com/" target="_blank">Land-book</a>
+                    <p>Trying to design a killer landing page but don't know where to start? Take a peek at some of these, and be amazed</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
